@@ -5,6 +5,5 @@
     "python.analysis.extraPaths": [
         "./Python"
     ],
-    "phpserver.phpPath": "C:\\xampp\\php\\php.exe",
-    "phpserver.port": 8080,
+    "php.validate.executablePath": "/mnt/c\\xampp\\php\\php.exe"
 }
