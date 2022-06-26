@@ -16,4 +16,10 @@ class Account{
         this.email;
         this.password;
     }
+
+    printDataAccount(){
+        console.log(this.name)
+        console.log(this.document)
+        console.log(this.email);
+    }
 }
