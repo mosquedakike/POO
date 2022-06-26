@@ -1,7 +1,7 @@
 public class Car {
-    Integer id;
-    String license;
-    Account driver;
+    private Integer id;
+    private String license;
+    private Account driver;
     private Integer passenger;
 
     public Car(String license, Account driver){
