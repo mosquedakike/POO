@@ -16,7 +16,13 @@ class Main{
         // car2.passenger = 10;
 
        Car car = new Car("Dev2115", new Account("Luis Enrique", "LUIS123"));
+       //car.passenger = 10;
        car.printDataCar();
+
+       System.out.println("**************************************************");
+       UberX uberX = new UberX("licencia", new Account("Soy un humano", "Mi douumento"), "Tesla", "Model 3");
+       uberX.setPassenger(5);
+       uberX.printDataCar();
 
     }
 }
